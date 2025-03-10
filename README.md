@@ -1,6 +1,6 @@
 # CSV Data Generator
 
-A simple tool to generate CSV data for testing.
+A simple tool to generate CSV data for testing. Outputs result to stdout
 
 ## Usage
 
