@@ -1,0 +1,34 @@
+{
+  "fields": [
+    {
+      "field_name": "name",
+      "field_type": "Name"
+    },
+    {
+      "field_name": "description",
+      "field_type": "String"
+    },
+    {
+      "field_name": "age",
+      "field_type": "Number"
+    },
+    {
+      "field_name": "dob",
+      "field_type": "Date"
+    },
+    {
+      "field_name": "is_subscribed",
+      "field_type": "Boolean"
+    },
+    {
+      "field_name": "client_id",
+      "field_type": "Uuid"
+    },
+    {
+      "field_name": "sub_id",
+      "field_type": {
+        "PatternString": "[A-Z]{2}-[0-9]{4}-[A-Z]{1}-[0-9]{3}"
+      }
+    }
+  ]
+}
