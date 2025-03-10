@@ -40,7 +40,7 @@ fn generate_inner(
                     selection[index].clone()
                 }
                 FieldType::RangeInteger(ref range) => {
-                    let value = rng.random_range(range.min..range.max);
+                    let value = rng.random_range(range.min..=range.max);
                     value.to_string()
                 }
             };
